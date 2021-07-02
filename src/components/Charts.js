@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Button from '@material-ui/core/Button';
 
 const Charts = () => {
     return (
@@ -7,7 +8,9 @@ const Charts = () => {
             <h1>Charts</h1>
             <p>Charts to go here below</p>
             <Link to="/">
-                <button>Home</button>
+                <Button variant="contained" color="primary" size="medium">
+                    Home
+                </Button>
             </Link>
         </div>
     );
